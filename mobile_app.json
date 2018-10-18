@@ -1,0 +1,1363 @@
+var data = {
+
+    "teams": [{
+
+            "name": "Lions",
+            "players": ["Peter", "Marc", "John", "Jacob", "Aaron", "Abel", "Mathew", "Tim", "Luke", "Steven", "Joseph", "Jesus"],
+            "history": "Orlando City SC was formed in 2010, when Phil Rawlins purchased the USL PRO rights for Central Florida and moved the Austin Aztex organization to Orlando. Rawlins immediately set his sights on bringing a Major League Soccer franchise to Central Florida within three to five years. The Club's first major accomplishment was signing Orlando Health as the jersey sponsor. Their early commitment to the Club allowed it to flourish quickly, and the Lions soon began to prove their on-field performance would match the Club’s off-field success, winning both the regular season, and ultimately the Championship in their first year, in one of the most thrilling finals in US soccer history.",
+            "image": "http://www.pyslsoccer.com/images/home3.jpg",
+            "web": "https://www.orlandocitysc.com/stadium",
+            "stadiumName": "Orlando City Lions Stadium",
+            "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.953725446538!2d-81.39146688491947!3d28.541110582453957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77a54982df52d%3A0xcf5f870d3178c1a8!2sOrlando+City+Stadium!5e0!3m2!1ses!2ses!4v1538480090170",
+            "city": "Orlando, Flo",
+            "stadium": "orlandocityStadium.jpg",
+            "logo": "leon.jpg",
+            "trainning": "Every Monday, Wednesday and Thursday at 16h.",
+            "lastMatch": "31/08/2019", 
+            "scores": {
+
+                "win": 3,
+                "lost": 2,
+                "tied": 4,
+                "points": 13
+            }
+
+    },
+        {
+
+            "name": "Tigers",
+            "players": ["Adrian", "Alex", "Alfonso", "Colin", "Cooper", "Gabriel", "William", "Gustav", "Gerard", "Many"],
+            "history": "It all began with a legend. On the 126th anniversary of the Great Chicago Fire, October 8, 1997, an announcement was made. The new Major League Soccer team assigned to Chicago would be called the Chicago Fire. Its inaugural season would be in 1998",
+            "image": "tigersteam.jpg",
+            "web": "http://www.pyslsoccer.com/",
+            "stadiumName": "Tigers Illinois Stadium",
+            "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112805.7365229554!2d-91.07446360611345!3d40.36786460226978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880cd723c9a44db3%3A0x8926c81acca3ce4a!2sIllinois+Field!5e0!3m2!1ses!2ses!4v1538487642318",
+            "city": "Illinois",
+            "stadium": "illinoisstadium.jpg",
+            "logo": "tiger.jpg",
+            "trainning": "Every Monday, Wednesday and Friday at 16h.",
+            "lastMatch": "31/08/2019",
+            "scores": {
+
+                "win": 4,
+                "lost": 1,
+                "tied": 4,
+                "points": 16
+            }
+
+    },
+        {
+
+            "name": "Bears",
+            "players": ["Lorent", "Robert", "Tony", "Peter", "Angel", "Luis", "Luciano", "Jonathan", "David", "Vicent"],
+            "history": "The time is now, a new era has dawned. Atlanta´s Bears has welcomed the beautiful game. Atlanta was born as a railroad town and today is a global hub for travel and commerce. It is in our DNA to  connect and unite. Atlanta United joined Major League Soccer in 2017, breaking multiple league records on the way to the playoffs in its inaugural season. The club set the MLS record for season ticket sales as well as records for single-game, single-season average, and total home attendance. Owned by one of the city’s most influential businessmen and philanthropists, Arthur M. Blank, and led by club President Darren Eales, Atlanta United plays its home matches at state-of-the-art Mercedes-Benz Stadium located in downtown Atlanta.",
+            "image": "bearsteam.jpg",
+            "web": "https://www.atlutd.com/",
+            "stadiumName": "Mercedes Benz Stadium",
+            "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3317.204845599334!2d-84.40151128531586!3d33.755372080687685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5037c38c799e3%3A0x6541be00805df0ee!2sMercedes-Benz+Stadium!5e0!3m2!1ses!2ses!4v1538487547739",
+            "city": "Atlanta",
+            "stadium": "atlantaStadium.jpg",
+            "logo": "oso.jpg",
+            "trainning": "Every Monday, Wednesday and Thursday at 16h.",
+            "lastMatch": "31/08/2019",
+            "scores": {
+
+                "win": 2,
+                "lost": 6,
+                "tied": 1,
+                "points": 7
+            }
+
+    },
+        {
+
+            "name": "Dragons",
+            "players": ["Donald", "Nico", "Obama", "Omar", "Charles", "Paul", "Michael", "Grigory", "John", "Nathan"],
+            "history": " Dragons Colorado Rapids Youth Soccer Club (CRYSC) is a 501(c)3 nonprofit organization that provides one of the nation’s most comprehensive, in-depth approaches to youth soccer- providing opportunities for players three-years-old to professional, from beginner to advanced. In partnership with the professional MLS team, CRYSC has access to resources and support above and beyond other soccer clubs. Serving over 4,000 children every season, CRYSC staffs the nation’s best coaches to provide all children, at all levels, opportunities to enjoy and grow in the game of soccer. In addition to leagues, CRYSC provides beginner to advanced level tournaments, camps and clinics in the summer and winter as well as college preparation assistance.",
+            "image": "dragonsteam.jpg",
+            "web": "http://rapidsyouthsoccer.org/",
+            "stadiumName": " Colorado Dragons Stadium",
+            "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3065.0611471302723!2d-104.89400548510598!3d39.80562017944086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c7af5fb6e9da3%3A0xb3ad67321d1e2b9d!2sDick%E2%80%99s+Sporting+Goods+Park!5e0!3m2!1ses!2ses!4v1538487685609",
+            "city": "Colorado",
+            "stadium": "coloradoStadium.jpg",
+            "logo": "dragon.jpg",
+            "trainning": "Every Monday, Tuesday and Thursday at 16h.",
+            "lastMatch": "31/08/2019",
+            "scores": {
+
+                "win": 1,
+                "lost": 3,
+                "tied": 5,
+                "points": 8
+            }
+
+    },
+
+        {
+
+            "name": "Eagles",
+            "players": ["Vladimir", "Mike", "Jeff", "Bill", "Rudolph", "George", "German", "Albert", "Bernie", "Joe"],
+            "history": "Eagles Crew SC Academy is the program that provides the greatest opportunity and exposure for players to reach their highest level, and is one of the few programs in the country that is fully funded. No costs—for player fees, travel, accommodations, meals and Crew SC replica gear—are incurred by families. Players train and play at the Crew Training Facility and MAPFRE Stadium. Crew SC Academy is a charter member of the U.S. Soccer Development Academy.  Supported by the U.S. National Teams, it is the top level of competition in the country. Crew SC Academy is the only member of the Development Academy in Central Ohio, and is the top boy’s level in Ohio.",
+            "image": "eagleteam.jpg",
+            "web": "https://youth.lagalaxy.com/",
+            "stadiumName": "Eagles Mapfre Crew Stadium",
+            "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3055.951595156072!2d-82.99335088509837!3d40.00952877941452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883889536d498093%3A0x2b5cb386c60ffb9f!2sMapfre+Stadium!5e0!3m2!1ses!2ses!4v1538487737554",
+            "city": "Ohio",
+            "stadium": "ohio eagle.jpg",
+            "logo": "aguila.jpg",
+            "trainning": "Every Monday, Tuesday and Friday at 16h.",
+            "lastMatch": "31/08/2019",
+            "scores": {
+
+                "win": 4,
+                "lost": 4,
+                "tied": 1,
+                "points": 13
+            }
+
+    },
+
+
+        {
+
+            "name": "Dolphins",
+            "players": ["Emmanuel", "Justin", "Sean", "Nick", "Bryan", "JC", "Malcom", "Walter", "Alain", "Elijah"],
+            "history": "LA Dolphins Galaxy Camps provide a platform for players of all ages and ability to play soccer in a challenging and exciting environment.  Our professional USSF Certified youth coaching staff create a unique atmosphere for all players to receive the highest coaching instruction while enjoying being developed as a soccer player. In various locations all around Southern California, our camps are designed to provide a better understanding of the game’s overall tactics in a safe, fun, and competitive environment conducive for each player to learn and grow. Our staff teach using age-appropriate technical and tactical exercises designed by our Academy coaches with each level of player in mind. ",
+            "image": "dolphinsLA.jpg",
+            "web": "https://youth.lagalaxy.com/camps/",
+            "stadiumName": "Dolphins LA Stadium",
+            "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.212246541251!2d-118.28673718530746!3d34.01276248061663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c808e06dbb59%3A0xc8caaad992248bdc!2sBanc+of+California+Stadium!5e0!3m2!1ses!2ses!4v1538487817842",
+            "city": "LA, California",
+            "stadium": "dolphinStadium.jpg",
+            "logo": "delfin.jpg",
+            "trainning": "Every Monday, Tuesday, Thursday and Friday at 16h.",
+            "lastMatch": "31/08/2019",
+            "scores": {
+
+                "win": 3,
+                "lost": 4,
+                "tied": 2,
+                "points": 11
+            }
+
+    },
+
+        {
+
+            "name": "Pandas",
+            "players": ["Eric", "Philipe", "Mauricio", "Evo", "Sebástian", "Ismael", "Salvador", "Ali", "Giorgi", "Frank"],
+            "history": "outh development is the core of our mission and the heart of our passion.  The Philadelphia Union Academy program is free of charge so Philadelphia’s future players of promise have an opportunity to pursue their passions without the burden of paying to play.  Selection into the program is a true accomplishment and a major step in a player’s path to our first team.",
+            "image": "pandateam.jpg",
+            "web": "https://philadelphiaunionyouth.com/",
+            "stadiumName": "Philadelphia Talent Energy Pandas Stadium",
+            "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3063.8494503357924!2d-75.38064538510497!3d39.83279297943723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6e7aecfa70025%3A0x4a416539cd8695fb!2sPpl+Park!5e0!3m2!1ses!2ses!4v1538487871708",
+            "city": "Philadelphia",
+            "stadium": "philadelphiaEstadium.jpg",
+            "logo": "panda.jpg",
+            "trainning": "Every Monday, Tuesday, Thursday and Friday at 16h.",
+            "lastMatch": "31/08/2019",
+            "scores": {
+
+                "win": 3,
+                "lost": 3,
+                "tied": 3,
+                "points": 12
+            }
+
+    },
+
+        {
+
+            "name": "Foxes",
+            "players": ["Jimmy", "Igor", "Daniel", "Samuel", "Ezequiel", "Benjamin", "Jemerias", "Tommy", "Stefan", "Alessandro"],
+            "history": "The PGYSA is proud to release Phase-One of our Five-Phase plan (2018-2023). Consisting of new programs and partnerships with local entities, it is an exciting time to play soccer in Prince George. Core components of our Phase-One release is a new Grass Roots – Youth – Adult SuperSoccer Indoor League, Youth and Adult Indoor World Cup Tournaments, and new athlete development programs. We thank the Prince George Dome for partnering with us in developing our Youth League and World Cup Tournament and look forward to an exciting Indoor 2018-19 season. Please see the program links below and the Indoor tab for registration.",
+            "image": "foxteam.jpg",
+            "web": "https://www.pgysa.bc.ca/",
+            "stadiumName": "Fox Stadium",
+            "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9401.19108222344!2d-122.80966879691783!3d53.90868435869475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x538899736fc4d161%3A0x3c46db4431ea975a!2sRotary+Soccer+Fields!5e0!3m2!1ses!2ses!4v1538487948119",
+            "city": "Canadá",
+            "stadium": "foxstadium.jpg",
+            "logo": "foxi.jpg",
+            "trainning": "Every Tuesday and Friday at 16h.",
+            "lastMatch": "31/08/2019",
+            "scores": {
+
+                "win": 4,
+                "lost": 3,
+                "tied": 2,
+                "points": 14
+            }
+
+    },
+
+        {
+
+            "name": "Sharks",
+            "players": ["Raul", "Emerson", "Bruno", "Ryan", "Leonard", "Donatello", "Raphael", "Michelangelo", "Harrison", "Christian"],
+            "history": "Hard Rock Stadium is a multipurpose football stadium located in Miami Gardens, Florida, a city north of Miami. It is the home stadium of the Miami Dolphins of the National Football League (NFL). Hard Rock Stadium also plays host to the Miami Hurricanes football team during their regular season. The facility also hosts the Orange Bowl, an annual college football bowl game. It was the home to the Florida Marlins of Major League Baseball (MLB) from 1993 to 2011.",
+            "image": "sharkteam.jpg",
+            "web": "https://hardrockstadium.com/",
+            "stadiumName": "Hard Rock Miami Sharks Stadium",
+            "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3587.307109675299!2d-80.24104908554075!3d25.95796648354806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9af0497b5f3a9%3A0x5815e194c60bf9db!2sSun+Life+Stadium!5e0!3m2!1ses!2ses!4v1538488038815",
+            "city": "Miami, Flo",
+            "stadium": "HardMiami.jpg",
+            "logo": "shark.jpg",
+            "trainning": "Every Monday and Thursday at 16h.",
+            "lastMatch": "31/08/2019",
+            "scores": {
+
+                "win": 3,
+                "lost": 3,
+                "tied": 3,
+                "points": 12
+            }
+
+    },
+
+        {
+
+            "name": "Buffalos",
+            "players": ["Will", "Tom", "Jonhy", "Moorgan", "Jim", "Keanu", "Edward", "Jake", "Richard", "Jude"],
+            "history": "BBVA Compass Stadium is an American multi-purpose stadium located in Houston, Texas that is home to the Houston Dynamo, a Major League Soccer club, the Houston Dash of the National Women's Soccer League, and to Texas Southern Tigers football. The stadium is the result of combined commitments of $35.5 million from the city of Houston and $60 million from the Houston Dynamo.",
+            "image": "buffaloteam.jpg",
+            "web": "https://www.houstondynamo.com/",
+            "stadiumName": "BBVA Houston Stadium",
+            "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.8778263385107!2d-95.354480635438!3d29.752248831989533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf20767b63ab%3A0xda08ec19fc1429c!2sBBVA+Compass+Stadium!5e0!3m2!1ses!2ses!4v1538488128661",
+            "city": "Houston",
+            "stadium": "buffaloStadium.jpg",
+            "logo": "buffalo.jpg",
+            "lastMatch": "31/08/2019",
+            "scores": {
+
+                "win": 3,
+                "lost": 3,
+                "tied": 3,
+                "points": 12
+            }
+
+    }],
+
+    "nextmatches": [{
+
+            "num": 46,
+            "jornada": 10,
+            "date": "07/09/2019",
+            "time": "18:00",
+            "Team1": "Bears",
+            "logo1": "oso.jpg",
+            "Team2": "Tigers",
+            "logo2": "tiger.jpg"
+
+    },{
+
+            "num": 47,
+            "jornada": 10,
+            "date": "07/09/2019",
+            "time": "18:00",
+            "Team1": "Dolphins",
+            "logo1": "delfin.jpg",
+            "Team2": "Eagles",
+            "logo2": "aguila.jpg"
+
+    },{
+
+            "num": 48,
+            "jornada": 10,
+            "date": "07/09/2019",
+            "time": "18:00",
+            "Team1": "Pandas",
+            "logo1": "panda.jpg",
+            "Team2": "Dragons",
+            "logo2": "dragon.jpg"
+
+    },{
+
+            "num": 49,
+            "jornada": 10,
+            "date": "07/09/2019",
+            "time": "18:00",
+            "Team1": "Foxes",
+            "logo1": "foxi.jpg",
+            "Team2": "Lions",
+            "logo2": "leon.jpg"
+
+    },{
+
+            "num": 50,
+            "jornada": 10,
+            "date": "07/09/2019",
+            "time": "18:00",
+            "Team1": "Sharks",
+            "logo1": "shark.jpg",
+            "Team2": "Buffalos",
+            "logo2": "buffalo.jpg"
+
+    },{
+
+            "num": 51,
+            "jornada": 11,
+            "date": "14/09/2019",
+            "time": "18:00",
+            "Team1": "Lions",
+            "logo1": "leon.jpg",
+            "Team2": "Bears",
+            "logo2": "oso.jpg"
+
+    },{
+
+            "num": 52,
+            "jornada": 11,
+            "date": "14/09/2019",
+            "time": "18:00",
+            "Team1": "Tigers",
+            "logo1": "tiger.jpg",
+            "Team2": "Sharks",
+            "logo2": "shark.jpg"
+
+    },{
+
+            "num": 53,
+            "jornada": 11,
+            "date": "14/09/2019",
+            "time": "18:00",
+            "Team1": "Dragons",
+            "logo1": "dragon.jpg",
+            "Team2": "Foxes",   
+            "logo2": "foxi.jpg"
+
+    },{
+
+            "num": 54,
+            "jornada": 11,
+            "date": "14/09/2019",
+            "time": "18:00",
+            "Team1": "Eagles",
+            "logo1": "aguila.jpg",
+            "Team2": "Pandas",
+            "logo2": "panda.jpg"
+
+    },{
+
+            "num": 55,
+            "jornada": 11,
+            "date": "14/09/2019",
+            "time": "18:00",
+            "Team1": "Buffalos",
+            "logo1": "buffalo.jpg",
+            "Team2": "Dolphins",
+            "logo2": "delfin.jpg"
+
+    },{
+
+            "num": 56,
+            "jornada": 12,
+            "date": "21/09/2019",
+            "time": "18:00",
+            "Team1": "Bears",
+            "logo1": "oso.jpg",
+            "Team2": "Dragons",
+            "logo2": "dragon.jpg"
+
+    },{
+
+            "num": 57,
+            "jornada": 12,
+            "date": "21/09/2019",
+            "time": "18:00",
+            "Team1": "Eagles",
+            "logo1": "aguila.jpg",
+            "Team2": "Buffalos",
+            "logo2": "buffalo.jpg"
+
+    },{
+
+            "num": 58,
+            "jornada": 12,
+            "date": "21/09/2019",
+            "time": "18:00",
+            "Team1": "Dolphins",
+            "logo1": "delfin.jpg",
+            "Team2": "Tigers",
+            "logo2": "tiger.jpg"
+
+    },{
+
+            "num": 59,
+            "jornada": 12,
+            "date": "21/09/2019",
+            "time": "18:00",
+            "Team1": "Pandas",
+            "logo1": "panda.jpg",
+            "Team2": "Foxes",
+            "logo2": "foxi.jpg"
+
+    },{
+
+            "num": 60,
+            "jornada": 12,
+            "date": "21/09/2019",
+            "time": "18:00",
+            "Team1": "Sharks",
+            "logo1": "shark.jpg",
+            "Team2": "Lions",
+            "logo2": "leon.jpg"
+
+    },{
+
+            "num": 61,
+            "jornada": 13,
+            "date": "28/09/2019",
+            "time": "18:00",
+            "Team1": "Lions",
+            "logo1": "leon.jpg",
+            "Team2": "Dolphins",
+            "logo2": "delfin.jpg"
+
+    },{
+
+            "num": 62,
+            "jornada": 13,
+            "date": "28/09/2019",
+            "time": "18:00",
+            "Team1": "Tigers",
+            "logo1": "tiger.jpg",
+            "Team2": "Eagles",
+            "logo2": "aguila.jpg"
+
+    },{
+
+            "num": 63,
+            "jornada": 13,
+            "date": "28/09/2019",
+            "time": "18:00",
+            "Team1": "Dragons",
+            "logo1": "dragon.jpg",
+            "Team2": "Sharks",
+            "logo2": "shark.jpg"
+
+    },{
+
+            "num": 64,
+            "jornada": 13,
+            "date": "28/09/2019",
+            "time": "18:00",
+            "Team1": "Foxes",
+            "logo1": "foxi.jpg",
+            "Team2": "Bears",
+            "logo2": "oso.jpg"
+
+    },{
+
+            "num": 65,
+            "jornada": 13,
+            "date": "28/09/2019",
+            "time": "18:00",
+            "Team1": "Buffalos",
+            "logo1": "buffalo.jpg",
+            "Team2": "Pandas",
+            "logo2": "panda.jpg"
+
+    },{
+
+            "num": 66,
+            "jornada": 14,
+            "date": "05/10/2019",
+            "time": "18:00",
+            "Team1": "Eagles",
+            "logo1": "aguila.jpg",
+            "Team2": "Lions",
+            "logo2": "leon.jpg"
+
+    },{
+
+            "num": 67,
+            "jornada": 14,
+            "date": "05/10/2019",
+            "time": "18:00",
+            "Team1": "Dolphins",
+            "logo1": "delfin.jpg",
+            "Team2": "Dragons",
+            "logo2": "dragon.jpg"
+
+    },{
+
+            "num": 68,
+            "jornada": 14,
+            "date": "05/10/2019",
+            "time": "18:00",
+            "Team1": "Pandas",
+            "logo1": "panda.jpg",
+            "Team2": "Bears",
+            "logo2": "oso.jpg"
+
+    },{
+
+            "num": 69,
+            "jornada": 14,
+            "date": "05/10/2019",
+            "time": "18:00",
+            "Team1": "Sharks",
+            "logo1": "shark.jpg",
+            "Team2": "Foxes",
+            "logo2": "foxi.jpg"
+
+    },{
+
+            "num": 70,
+            "jornada": 14,
+            "date": "05/10/2019",
+            "time": "18:00",
+            "Team1": "Buffalos",
+            "logo1": "buffalo.jpg",
+            "Team2": "Tigers",
+            "logo2": "tiger.jpg"
+
+    },{
+
+            "num": 71,
+            "jornada": 15,
+            "date": "12/10/2019",
+            "time": "18:00",
+            "Team1": "Lions",
+            "logo1": "leon.jpg",
+            "Team2": "Buffalos",
+            "logo2": "buffalo.jpg"
+
+    },{
+
+            "num": 72,
+            "jornada": 15,
+            "date": "12/10/2019",
+            "time": "18:00",
+            "Team1": "Tigers",
+            "logo1": "tiger.jpg",
+            "Team2": "Pandas",
+            "logo2": "panda.jpg"
+
+    },{
+
+            "num": 73,
+            "jornada": 15,
+            "date": "12/10/2019",
+            "time": "18:00",
+            "Team1": "Bears",
+            "logo1": "oso.jpg",
+            "Team2": "Sharks",
+            "logo2": "shark.jpg"
+
+    },{
+
+            "num": 74,
+            "jornada": 15,
+            "date": "12/10/2019",
+            "time": "18:00",
+            "Team1": "Dragons",
+            "logo1": "dragon.jpg",
+            "Team2": "Eagles",
+            "logo2": "aguila.jpg"
+
+    },{
+
+            "num": 75,
+            "jornada": 15,
+            "date": "12/10/2019",
+            "time": "18:00",
+            "Team1": "Foxes",
+            "logo1": "foxi.jpg",
+            "Team2": "Dolphins",
+            "logo2": "delfin.jpg"
+
+    },{
+
+            "num": 76,
+            "jornada": 16,
+            "date": "19/10/2019",
+            "time": "18:00",
+            "Team1": "Tigers",
+            "logo1": "tiger.jpg",
+            "Team2": "Lions",
+            "logo2": "leon.jpg"
+
+    },{
+
+            "num": 77,
+            "jornada": 16,
+            "date": "19/10/2019",
+            "time": "18:00",
+            "Team1": "Eagles",
+            "logo1": "aguila.jpg",
+            "Team2": "Foxes",
+            "logo2": "foxi.jpg"
+
+    },{
+
+            "num": 78,
+            "jornada": 16,
+            "date": "19/10/2019",
+            "time": "18:00",
+            "Team1": "Dolphins",
+            "logo1": "delfin.jpg",
+            "Team2": "Bears",
+            "logo2": "oso.jpg"
+
+    },{
+
+            "num": 79,
+            "jornada": 16,
+            "date": "19/10/2019",
+            "time": "18:00",
+            "Team1": "Pandas",
+            "logo1": "panda.jpg",
+            "Team2": "Sharks",
+            "logo2": "shark.jpg"
+
+    },{
+
+            "num": 80,
+            "jornada": 16,
+            "date": "19/10/2019",
+            "time": "18:00",
+            "Team1": "Buffalos",
+            "logo1": "buffalo.jpg",
+            "Team2": "Dragons",
+            "logo2": "dragon.jpg"
+
+    },{
+
+            "num": 81,
+            "jornada": 17,
+            "date": "26/10/2019",
+            "time": "18:00",
+            "Team1": "Bears",
+            "logo1": "oso.jpg",
+            "Team2": "Eagles",
+            "logo2": "aguila.jpg"
+
+    },{
+
+            "num": 82,
+            "jornada": 17,
+            "date": "26/10/2019",
+            "time": "18:00",
+            "Team1": "Dragons",
+            "logo1": "dragon.jpg",
+            "Team2": "Tigers",
+            "logo2": "tiger.jpg"
+
+    },{
+
+            "num": 83,
+            "jornada": 17,
+            "date": "26/10/2019",
+            "time": "18:00",
+            "Team1": "Pandas",
+            "logo1": "panda.jpg",
+            "Team2": "Lions",
+            "logo2": "leon.jpg"
+
+    },{
+
+            "num": 84,
+            "jornada": 17,
+            "date": "26/10/2019",
+            "time": "18:00",
+            "Team1": "Foxes",
+            "logo1": "foxi.jpg",
+            "Team2": "Buffalos",
+            "logo2": "buffalo.jpg"
+
+    },{
+
+            "num": 85,
+            "jornada": 17,
+            "date": "26/10/2019",
+            "time": "18:00",
+            "Team1": "Sharks",
+            "logo1": "shark.jpg",
+            "Team2": "Dolphins",
+            "logo2": "delfin.jpg"
+
+    },{
+
+            "num": 86,
+            "jornada": 18,
+            "date": "02/11/2019",
+            "time": "18:00",
+            "Team1": "Lions",
+            "logo1": "leon.jpg",
+            "Team2": "Dragons",
+            "logo2": "dragon.jpg"
+
+    },{
+
+            "num": 87,
+            "jornada": 18,
+            "date": "02/11/2019",
+            "time": "18:00",
+            "Team1": "Tigers",
+            "logo1": "tiger.jpg",
+            "Team2": "Foxes",
+            "logo2": "foxi.jpg"
+
+    },{
+
+            "num": 88,
+            "jornada": 18,
+            "date": "02/11/2019",
+            "time": "18:00",
+            "Team1": "Eagles",
+            "logo1": "aguila.jpg",
+            "Team2": "Sharks",
+            "logo2": "shark.jpg"
+
+    },{
+
+            "num": 89,
+            "jornada": 18,
+            "date": "02/11/2019",
+            "time": "18:00",
+            "Team1": "Dolphins",
+            "logo1": "delfin.jpg",
+            "Team2": "Pandas",
+            "logo": "panda.jpg"
+
+    },{
+
+            "num": 90,
+            "jornada": 18,
+            "date": "02/11/2019",
+            "time": "18:00",
+            "Team1": "Buffalos",
+            "logo1": "buffalo.jpg",
+            "Team2": "Bears",
+            "logo2": "oso.jpg"
+
+    }
+                   ],
+
+    "previousmatches": [{
+
+            "num": 1,
+            "Team1": "Lions",
+            "logo1": "leon.jpg",
+            "Team2": "Foxes",
+            "logo2": "foxi.jpg",
+            "lastMatch": "06/07/2019",
+            "jornada": 1,
+            "score1": 0,
+            "score2": 0
+
+
+    }, {
+
+            "num": 2,
+            "Team1": "Tigers",
+            "logo1": "tiger.jpg",
+            "Team2": "Bears",
+            "logo2": "oso.jpg",
+            "lastMatch": "06/07/2019",
+            "jornada": 1,
+            "score1": 4,
+            "score2": 3
+
+
+    }, {
+
+            "num": 3,
+            "Team1": "Dragons",
+            "logo1": "dragon.jpg",
+            "Team2": "Pandas",
+            "logo2": "panda.jpg",
+            "lastMatch": "06/07/2019",
+            "jornada": 1,
+            "score1": 1,
+            "score2": 1
+
+
+    }, {
+
+            "num": 4,
+            "Team1": "Eagles",
+            "logo1": "aguila.jpg",
+            "Team2": "Dolphins",
+            "logo2": "delfin.jpg",
+            "lastMatch": "06/07/2019",
+            "jornada": 1,
+            "score1": 0,
+            "score2": 3
+
+
+    }, {
+
+            "num": 5,
+            "Team1": "Buffalos",
+            "logo1": "buffalo.jpg",
+            "Team2": "Sharks",
+            "logo2": "shark.jpg",
+            "lastMatch": "06/07/2019",
+            "jornada": 1,
+            "score1": 3,
+            "score2": 0
+
+
+    }, {
+
+            "num": 6,
+            "Team1": "Bears",
+            "logo1": "oso.jpg",
+            "Team2": "Lions",
+            "logo2": "leon.jpg",
+            "lastMatch": "13/07/2019",
+            "jornada": 2,
+            "score1": 2,
+            "score2": 0
+
+
+    }, {
+
+            "num": 7,
+            "Team1": "Dolphins",
+            "logo1": "delfin.jpg",
+            "Team2": "Buffalos",
+            "logo2": "buffalo.jpg",
+            "lastMatch": "13/07/2019",
+            "jornada": 2,
+            "score1": 1,
+            "score2": 3
+
+
+    }, {
+
+            "num": 8,
+            "Team1": "Pandas",
+            "logo1": "panda.jpg",
+            "Team2": "Eagles",
+            "logo2": "aguila.jpg",
+            "lastMatch": "13/07/2019",
+            "jornada": 2,
+            "score1": 5,
+            "score2": 2
+
+
+    }, {
+
+            "num": 9,
+            "Team1": "Foxes",
+            "logo1": "foxi.jpg",
+            "Team2": "Dragons",
+            "logo2": "dragon.jpg",
+            "lastMatch": "13/07/2019",
+            "jornada": 2,
+            "score1": 1,
+            "score2": 1
+
+
+    }, {
+
+            "num": 10,
+            "Team1": "Sharks",
+            "logo1": "shark.jpg",
+            "Team2": "Tigers",
+            "logo2": "tiger.jpg",
+            "lastMatch": "13/07/2019",
+            "jornada": 2,
+            "score1": 3,
+            "score2": 3
+
+
+    }, {
+
+            "num": 11,
+            "Team1": "Lions",
+            "logo1": "leon.jpg",
+            "Team2": "Sharks",
+            "logo2": "shark.jpg",
+            "lastMatch": "20/07/2019",
+            "jornada": 3,
+            "score1": 2,
+            "score2": 0
+
+
+    }, {
+
+            "num": 12,
+            "Team1": "Tigers",
+            "logo1": "tiger.jpg",
+            "Team2": "Dolphins",
+            "logo2": "delfin.jpg",
+            "lastMatch": "20/07/2019",
+            "jornada": 3,
+            "score1": 5,
+            "score2": 4
+
+
+    }, {
+
+            "num": 13,
+            "Team1": "Dragons",
+            "logo1": "dragon.jpg",
+            "Team2": "Bears",
+            "logo2": "oso.jpg",
+            "lastMatch": "20/07/2019",
+            "jornada": 3,
+            "score1": 3,
+            "score2": 2
+
+
+    }, {
+
+            "num": 14,
+            "Team1": "Foxes",
+            "logo1": "foxi.jpg",
+            "Team2": "Pandas",
+            "logo2": "panda.jpg",
+            "lastMatch": "20/07/2019",
+            "jornada": 3,
+            "score1": 3,
+            "score2": 4
+
+
+    }, {
+
+            "num": 15,
+            "Team1": "Buffalos",
+            "logo1": "buffalo.jpg",
+            "Team2": "Eagles",
+            "logo2": "aguila.jpg",
+            "lastMatch": "20/07/2019",
+            "jornada": 3,
+            "score1": 3,
+            "score2": 1
+
+
+    }, {
+
+            "num": 16,
+            "Team1": "Bears",
+            "logo1": "oso.jpg",
+            "Team2": "Foxes",
+            "logo2": "foxi.jpg",
+            "lastMatch": "27/07/2019",
+            "jornada": 4,
+            "score1": 0,
+            "score2": 3
+
+
+    }, {
+
+            "num": 17,
+            "Team1": "Eagles",
+            "logo1": "aguila.jpg",
+            "Team2": "Tigers",
+            "logo2": "tiger.jpg",
+            "lastMatch": "27/07/2019",
+            "jornada": 4,
+            "score1": 2,
+            "score2": 1
+
+
+    }, {
+
+            "num": 18,
+            "Team1": "Dolphins",
+            "logo1": "delfin.jpg",
+            "Team2": "Lions",
+            "logo2": "leon.jpg",
+            "lastMatch": "27/07/2019",
+            "jornada": 4,
+            "score1": 1,
+            "score2": 1
+
+
+    }, {
+
+            "num": 19,
+            "Team1": "Pandas",
+            "logo1": "panda.jpg",
+            "Team2": "Buffalos",
+            "logo2": "buffalo.jpg",
+            "lastMatch": "27/07/2019",
+            "jornada": 4,
+            "score1": 1,
+            "score2": 1
+
+
+    }, {
+
+            "num": 20,
+            "Team1": "Sharks",
+            "logo1": "shark.jpg",
+            "Team2": "Dragons",
+            "logo2": "dragon.jpg",
+            "lastMatch": "27/07/2019",
+            "jornada": 4,
+            "score1": 3,
+            "score2": 3
+
+
+    }, {
+
+            "num": 21,
+            "Team1": "Lions",
+            "logo1": "leon.jpg",
+            "Team2": "Eagles",
+            "logo2": "aguila.jpg",
+            "lastMatch": "03/08/2019",
+            "jornada": 5,
+            "score1": 4,
+            "score2": 5
+
+
+    }, {
+
+            "num": 22,
+            "Team1": "Tigers",
+            "logo1": "tiger.jpg",
+            "Team2": "Buffalos",
+            "logo2": "buffalo.jpg",
+            "lastMatch": "03/08/2019",
+            "jornada": 5,
+            "score1": 4,
+            "score2": 3
+
+
+    }, {
+
+            "num": 23,
+            "Team1": "Bears",
+            "logo1": "oso.jpg",
+            "Team2": "Pandas",
+            "logo2": "panda.jpg",
+            "lastMatch": "03/08/2019",
+            "jornada": 5,
+            "score1": 2,
+            "score2": 3
+
+
+    }, {
+
+            "num": 24,
+            "Team1": "Dragons",
+            "logo1": "dragon.jpg",
+            "Team2": "Dolphins",
+            "logo2": "delfin.jpg",
+            "lastMatch": "03/08/2019",
+            "jornada": 5,
+            "score1": 3,
+            "score2": 4
+
+
+    }, {
+
+            "num": 25,
+            "Team1": "Foxes",
+            "logo1": "foxi.jpg",
+            "Team2": "Sharks",
+            "logo2": "shark.jpg",
+            "lastMatch": "03/08/2019",
+            "jornada": 5,
+            "score1": 0,
+            "score2": 1
+
+
+    }, {
+
+            "num": 26,
+            "Team1": "Eagles",
+            "logo1": "aguila.jpg",
+            "Team2": "Dragons",
+            "logo2": "dragon.jpg",
+            "lastMatch": "10/08/2019",
+            "jornada": 6,
+            "score1": 3,
+            "score2": 1
+
+
+    }, {
+
+            "num": 27,
+            "Team1": "Dolphins",
+            "logo1": "delfin.jpg",
+            "Team2": "Foxes",
+            "logo2": "foxi.jpg",
+            "lastMatch": "10/08/2019",
+            "jornada": 6,
+            "score1": 3,
+            "score2": 7
+
+
+    }, {
+
+            "num": 28,
+            "Team1": "Pandas",
+            "logo1": "panda.jpg",
+            "Team2": "Tigers",
+            "logo2": "tiger.jpg",
+            "lastMatch": "10/08/2019",
+            "jornada": 6,
+            "score1": 1,
+            "score2": 1
+
+
+    }, {
+
+            "num": 29,
+            "Team1": "Sharks",
+            "logo1": "shark.jpg",
+            "Team2": "Bears",
+            "logo2": "oso.jpg",
+            "lastMatch": "10/08/2019",
+            "jornada": 6,
+            "score1": 2,
+            "score2": 1
+
+
+    }, {
+
+            "num": 30,
+            "Team1": "Buffalos",
+            "logo1": "buffalo.jpg",
+            "Team2": "Lions",
+            "logo2": "leon.jpg",
+            "lastMatch": "10/08/2019",
+            "jornada": 6,
+            "score1": 3,
+            "score2": 3
+
+
+    }, {
+
+            "num": 31,
+            "Team1": "Lions",
+            "logo1": "leon.jpg",
+            "Team2": "Tigers",
+            "logo2": "tiger.jpg",
+            "lastMatch": "17/08/2019",
+            "jornada": 7,
+            "score1": 2,
+            "score2": 2
+
+
+    }, {
+
+            "num": 32,
+            "Team1": "Bears",
+            "logo1": "oso.jpg",
+            "Team2": "Dolphins",
+            "logo2": "delfin.jpg",
+            "lastMatch": "17/08/2019",
+            "jornada": 7,
+            "score1": 1,
+            "score2": 2
+
+
+    }, {
+
+            "num": 33,
+            "Team1": "Dragons",
+            "logo1": "dragon.jpg",
+            "Team2": "Buffalos",
+            "logo2": "buffalo.jpg",
+            "lastMatch": "17/08/2019",
+            "jornada": 7,
+            "score1": 2,
+            "score2": 2
+
+
+    }, {
+
+            "num": 34,
+            "Team1": "Foxes",
+            "logo1": "foxi.jpg",
+            "Team2": "Eagles",
+            "logo2": "aguila.jpg",
+            "lastMatch": "17/08/2019",
+            "jornada": 7,
+            "score1": 3,
+            "score2": 1
+
+
+    }, {
+
+            "num": 35,
+            "Team1": "Sharks",
+            "logo1": "shark.jpg",
+            "Team2": "Pandas",
+            "logo2": "panda.jpg",
+            "lastMatch": "17/08/2019",
+            "jornada": 7,
+            "score1": 4,
+            "score2": 3
+
+
+    }, {
+
+            "num": 36,
+            "Team1": "Lions",
+            "logo1": "leon.jpg",
+            "Team2": "Pandas",
+            "logo2": "panda.jpg",
+            "lastMatch": "24/08/2019",
+            "jornada": 8,
+            "score1": 1,
+            "score2": 0
+
+
+    }, {
+
+            "num": 37,
+            "Team1": "Tigers",
+            "logo1": "leon.jpg",
+            "Team2": "Dragons",
+            "logo2": "dragon.jpg",
+            "lastMatch": "24/08/2019",
+            "jornada": 8,
+            "score1": 3,
+            "score2": 3
+
+
+    }, {
+
+            "num": 38,
+            "Team1": "Eagles",
+            "logo1": "aguila.jpg",
+            "Team2": "Bears",
+            "logo2": "oso.jpg",
+            "lastMatch": "24/08/2019",
+            "jornada": 8,
+            "score1": 2,
+            "score2": 2
+
+
+    }, {
+
+            "num": 39,
+            "Team1": "Dolphins",
+            "logo1": "delfin.jpg",
+            "Team2": "Sharks",
+            "logo2": "shark.jpg",
+            "lastMatch": "24/08/2019",
+            "jornada": 8,
+            "score1": 1,
+            "score2": 0
+
+
+    }, {
+
+            "num": 40,
+            "Team1": "Buffalos",
+            "logo1": "buffalo.jpg",
+            "Team2": "Foxes",
+            "logo2": "foxi.jpg",
+            "lastMatch": "24/08/2019",
+            "jornada": 8,
+            "score1": 1,
+            "score2": 2
+
+
+    }, {
+
+            "num": 41,
+            "Team1": "Buffalos",
+            "logo1": "buffalo.jpg",
+            "Team2": "Bears",
+            "logo2": "oso.jpg",
+            "lastMatch": "31/08/2019",
+            "jornada": 9,
+            "score1": 3,
+            "score2": 2
+
+
+    }, {
+
+            "num": 42,
+            "Team1": "Dragons",
+            "logo1": "dragon.jpg",
+            "Team2": "Lions",
+            "logo2": "leon.jpg",
+            "lastMatch": "31/08/2019",
+            "jornada": 9,
+            "score1": 3,
+            "score2": 4
+
+
+    }, {
+
+            "num": 43,
+            "Team1": "Pandas",
+            "logo1": "panda.jpg",
+            "Team2": "Dolphins",
+            "logo2": "delfin.jpg",
+            "lastMatch": "31/08/2019",
+            "jornada": 9,
+            "score1": 3,
+            "score2": 6
+
+
+    }, {
+
+            "num": 44,
+            "Team1": "Foxes",
+            "logo1": "foxi.jpg",
+            "Team2": "Tigers",
+            "logo2": "tiger.jpg",
+            "lastMatch": "31/08/2019",
+            "jornada": 9,
+            "score1": 0,
+            "score2": 3
+
+
+    }, {
+
+            "num": 45,
+            "Team1": "Sharks",
+            "logo1": "shark.jpg",
+            "Team2": "Eagles",
+            "logo2": "aguila.jpg",
+            "lastMatch": "31/08/2019",
+            "jornada": 9,
+            "score1": 1,
+            "score2": 2
+
+
+    }
+
+                       ],
+
+
+    "news": [
+        {
+            "title": "Global Preparatory Academy celebrates opening of a new NYSL court.",
+            "description": "Global Preparatory Academy, just northwest of downtown Indianapolis, has become the first school in Indiana to host a futsal-specific court on its grounds. Austin Bolyard, a physical education teacher at Global Prep and long-time supporter of NYSL Soccer League, saw the passion that his students had for the sport and wanted to create a designated space for the kids to play. He pitched his idea to IU Health, who agreed to partner with NYSL Soccer League to complete the project. A ribbon-cutting ceremony was held last Friday, where officials from NYSL Soccer League, IU Health and Mayor Joe Hogsett’s Office spoke about the importance of providing athletic outlets for NYSL youth. Mariama Carson, founder and principal of Global Prep, addressed the students who were eagerly awaiting the court’s opening, emphasizing the long-lasting implications of this community project. “When you come back here as an eighth grader, a high schooler, a college student - I want you to remember the day that we came together and celebrated this new court. It will be here for years to come,” Carson enthused. Following the opening ceremony, some of the school’s fiercest futsal competitors played the inaugural match with a large crowd of their classmates cheering from the sidelines. As an organization that emphasizes community outreach and cooperation, worked with several organizations to bring futsal programming to Global Prep.",
+            "photo": "news-photo.jpg",
+            "date": "09-23-2018"
+    },
+        {
+
+            "title": "Orlando City U17's and U19's In Playoff Action This Week",
+            "description": "It has been a successful first year for Orlando City’s youth partnership with Montverde Academy, but the best is yet to come. Orlando City’s U17’s and U19s have both qualified for this week’s playoffs in San Diego. As we work to implement our playing philosophy into the Orlando City Development Academy, I have been quite pleased with the results thus far with the U15s, U17s and U19s since we began in January,” said Academy Director Mike Potempa. This week’s event in San Diego will be the largest even in the history of the Development Academy. Hosted at the SoCal Sports Complex in Oceanside, CA, the Complex will feature the Boys’ Summer Showcase, Playoffs and Quarterfinal Knockout Rounds. Orlando City will be looking to impress on the big stage.",
+            "photo": "news-2.jpg",
+            "date": "10-15-2018"
+
+        },
+
+        {
+
+            "title": "Orlando Pride Exercises Options on 10 Players, Extends New Contract Offers to Seven",
+            "description": "Orlando Pride has announced the contract statuses for all 20 players following the conclusion of the 2018 National Women’s Soccer League (NWSL) season. The Club has exercised contract options on 10 players and extended new contract offers to seven players.The Pride retain the rights to Federation players Ashlyn Harris (USA), Alex Morgan (USA) and Shelina Zadorsky (Canada). The list of Federation players for the 2019 season will be announced at a later date.",
+            "photo": "news-3.jpg",
+            "date": "10-27-2018"
+
+        }],
+
+    "lifestyle": [{
+
+        "title": "good habits for athletes",
+        "habits": "Go to bed early (7-8 hours of sleep). Define your goals clearly and what you are trying to accomplish. Train smart before you train hard. Your time management and prioritization have to be excellent. Your experiences will help you grow. Your struggles, losses and disappointments will only make you stronger. Always put the team first. Be active, do cardio, lift weights and mediate so you not only keep a healthy body but a healthy mind as well. Listen more than you talk especially to your coaches, teachers and parents. I know it can be hard but I am sure you can do it. Ask coaches for feedback and improve on your weaknesses. Don’t ever complain, just work harder. Laugh often and surround yourself with positive minded people. Celebrate small goals, laugh for no reason and be the best possible teammate you can be. Respect everyone including yourself, your opponents, referees, opponents’  parents and coaches. Don’t be afraid to take risks and fail. Focus on the present and on what you can control. Your image and identity are important so build them accordingly. Every challenge is an opportunity to improve and get better. Trust your gut and take that shot. Encourage your teammates to keep on trying after their failures and tell them that everything will work out. Get comfortable with discomfort especially at training. Treat everyone the same way as you would like to be treated. Don’t judge anyone around you because you don’t know their story. Understand the rules and know the consequences. Going early to practice or games will count as being on time. Stay humble and focus on your goals with persistence and clarity. Never compare yourself with other players. Forgive others and most importantly forgive yourself as time is way to important to be wasted on that",
+        "nutrition": "Eat healthy, practice low sugar and low refined carbohydrate diet while you focus more on eating fruits and vegetables. Drink lots of water and always hydrate yourself accordingly.",
+        "photo": "goodhabits.jpg"
+
+    }]
+
+
+}

@@ -1,0 +1,367 @@
+[aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
+    display: none;
+}
+.container{
+    margin: auto;
+}
+
+header {
+
+    background-color: whitesmoke;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.plus {
+    width: 20px;
+    margin: 0px;
+}
+
+img {
+    width: 90px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-left: 45px;
+
+}
+
+h3 {
+    color: mediumvioletred;
+    font-size: 20px;
+
+}
+
+.nextmatches {
+
+    color: black;
+    margin-top: 10px;
+}
+
+.previousmatches {
+
+    color: black;
+
+}
+
+.petlogo {
+    width: 30px;
+    margin: 0px;
+
+}
+
+div > .petlogo {
+    margin: 0px;
+}
+
+.card-body {
+    text-align: justify;
+    background-color: whitesmoke;
+    font-size: 15px;
+}
+
+
+.newsphoto {
+    width: 150px;
+}
+h6, .carousel-control-prev-icon{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 10px;
+  
+}
+
+.teams{
+       margin-top: 10px;
+      margin-bottom: 80px; 
+    }
+.card-text {
+    background-color: whitesmoke;
+    color: black;
+    text-align: left;
+}
+
+.players {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.phototeam {
+    width: 200px;
+    margin: 25px;
+    margin-left: 50px;
+    display: flex;
+
+}
+
+.stadiumteam {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+
+}
+
+.table table-bordered {
+
+    text-align: center;
+}
+
+th {
+    text-align: center;
+
+}
+
+td {
+    text-align: justify;
+
+}
+
+.container-flex {
+    display: inline-flex;
+    margin-bottom: 10px;
+
+}
+
+.players {
+    text-align: justify;
+    padding: 0.5%;
+}
+
+li {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#membership {
+    margin-top: 20px;
+    background-color: whitesmoke;
+    padding: 2%;
+
+}
+
+#homeAbout {
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+#section2 {
+    margin-top: 50px;
+}
+
+.ButtonMatches {
+    width: 300px;
+    height: 150px;
+}
+
+#section25 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#section3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    overflow: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+#wrongId{
+    display: none;
+    font-weight: bold;
+    color: gainsboro;
+    
+}
+
+#section4 {
+    margin-bottom: 0px;
+}
+
+.box {
+    margin-top: 5px;
+    margin-bottom: 1px;
+    text-align: center;
+   margin: 10px;
+    border-radius: 20px;
+    overflow: scroll;
+    height: calc(100% - 350px);
+    width: calc(100% - 20px);
+    position: relative;
+    background: #efe7dd url("https://cloud.githubusercontent.com/assets/398893/15136779/4e765036-1639-11e6-9201-67e728e86f39.jpg") repeat;
+    z-index: 0;
+}
+
+.open > .inputsChat {
+
+    margin-left: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: gainsboro;
+
+}
+
+#create-post {
+    background-color: mediumvioletred;
+    border-radius: 5px;
+    display: inline-flex;
+    width: 80px;
+    margin-left: 20px;
+    
+    
+}
+  
+footer {
+    position: fixed;
+    bottom: 5px;
+    left: 0px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 0px;
+}
+
+
+.btn {
+    border: none;
+    color: mediumvioletred;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0px;
+
+
+}
+#teamsbutton{
+    margin-top: 10px;
+}
+
+.onlyMatch {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.loginOutButton {
+    margin-top: 30px;
+}
+
+.card-body > h6 {
+    position: relative;
+    bottom: 20;
+    left: 30px;
+}
+.onlyMatch{
+    margin-bottom: 30px;
+}
+
+iframe {
+    margin-bottom: 5px;
+}
+.nextmatches{
+    margin-bottom: 30px;
+}
+@media only screen and (max-device-width: 480px) {}
+
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: whitesmoke;
+
+    }
+    header {
+
+    background-color: whitesmoke;
+}
+    
+.container{
+    margin: auto;
+}
+    #section2 {
+    margin-top: 20px; 
+    margin-bottom: 50px;
+        
+}
+
+    .teams{
+       margin-top: 10px;
+      margin-bottom: 80px; 
+    }
+    #section3 {
+        margin-top: 10px;
+       margin-bottom: 100px;
+        background-color: whitesmoke;
+        width: 100%;
+        height: 110%;
+        overflow: scroll;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    
+.ButtonMatches {
+    width: 300px;
+    height: 150px;
+}
+
+#section25 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+    
+    .box {
+        margin-top: 2px;
+        text-align: center;
+        margin-left: 25px;
+        border-radius: 20px;
+        overflow: scroll;
+        height: calc(100% - 150px);
+        width: calc(100% - 20px);
+        position: relative;
+        background: #efe7dd url("https://cloud.githubusercontent.com/assets/398893/15136779/4e765036-1639-11e6-9201-67e728e86f39.jpg") repeat;
+        z-index: 0;
+    }
+    
+footer {
+    position: fixed;
+    bottom: 5px;
+    left: 100px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 0px;
+}
+
+
+.btn {
+    border: none;
+    color: mediumvioletred;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 10px;
+ 
+}
+    #membership {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    padding: 2%;
+
+}
+    .loginOutButton{
+        margin-bottom: 50px;
+    }
+    .chat{
+        margin-bottom: 0px;
+    }
+    #login{
+        margin-bottom: 0px;
+    }
+}

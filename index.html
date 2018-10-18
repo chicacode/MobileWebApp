@@ -1,0 +1,518 @@
+<!DOCTYPE>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+
+
+
+    <!--Bootstrap-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css" />
+
+
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="mobileApp.css">
+
+    <!--Title-->
+    <title>MOBILE WEB APP</title>
+
+
+
+</head>
+
+<body>
+    <div class="container " id="appMobile">
+
+        <header>
+
+            <div class="header row">
+
+                <div class=" col-xs-12">
+                    <img src="logoNYSL2.jpg">
+                </div>
+
+                <h1>NYSL</h1>
+
+            </div>
+
+
+        </header>
+
+        <!---section 1 home-->
+
+        <section data-page="home" id="section1" v-show="section1">
+
+            <div class="home">
+
+                <div class="accordion" id="homeAbout">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+         Purpose-Mission
+        </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" aria-labelledby="headingOne" data-parent="#homeAbout">
+                            <div class="card-body">
+                                Our purpose is to utilize NYSL to enhance positive human development. Our mission is to provide access to NYSL for all our Players. Yout development is the core of our mission, and the heart of our passion. NYSL set about implementing a holistic developmental platform integrating world-class player training and sport science for the youth soccer players of the NYSL region. NYSL is the renowned soccer platform providing an opportunity for the youngest players to develop a lifelong passion for the game and elite academy-aged players, on the cusp of professional stardom, the opportunity to pursue excellence in an enriching and nurturing environment.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      Strategic Vision.
+        </button><img class="plus" src="add-circle-1_48180.png" alt="plus" />
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#homeAbout">
+                            <div class="card-body">
+                                Our vision is a state in which every players has access to a version of the world's beautiful game.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         Core Values.
+        </button><img class="plus" src="add-circle-1_48180.png" alt="plus" />
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#homeAbout">
+                            <div class="card-body">
+                                We shall: Promote a healthy, safe and fun playing environment. Ensure a dependable, accountable, and caring organization. Build health and character through a focus on fair play and good sportsmanship. Promote integrity, high ethics and moral standards. Provide inclusive opportunities for everyone to participate. Encourage teamwork, leadership, respect and family values!
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+         News
+        </button><img class="plus" src="add-circle-1_48180.png" alt="plus" />
+                            </h5>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#homeAbout">
+
+                            <div class="card-body" v-for="team in news">
+
+                                <img class="newsphoto" v-bind:src=team.photo> {{team.title}}{{team.date}} {{team.description}}
+
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    
+                                    <span class="expanded">
+                                    Read less
+                                    </span>    
+                              </button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+        <!--section 2 match-->
+
+        <section data-page="match" id="section2" v-show="section2">
+            <div class="container" class="row">
+                <div class="col-xl-12 previousmatches">
+                    <b-btn :size="lg" class="ButtonMatches" v-b-toggle.collapse1 variant="outline-link">Previous Matches <img class="plus" src="add-circle-1_48180.png" alt="plus" /></b-btn>
+                    <b-collapse id="collapse1" class="mt-2">
+                        <b-card class="card" v-for="jornada in lastgames">
+
+                            <div class="card-header" v-bind:id="'heading' + jornada">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" v-bind:data-target="'#collapse' + jornada" aria-expanded="true" v-bind:aria-controls="'collapse' + jornada" v-on:click="matchesLately(jornada)" style="text-align: center">
+                               TOURNAMENT - {{jornada}}
+                        </button><img class="plus" src="add-circle-1_48180.png" alt="plus" />
+                            </div>
+                            <div v-bind:id="'collapse' + jornada" class="collapse" v-bind:aria-labelledby="'heading' + jornada" data-parent="#collapse1">
+                                <div class="card-body" v-for="match in lastMatches">
+                                    <img class="petlogo" v-bind:src=match.logo1> {{match.Team1}} {{match.score1}} - {{match.score2}} {{match.Team2}}<img class="petlogo" v-bind:src=match.logo2>
+
+                                </div>
+                            </div>
+
+                        </b-card>
+                    </b-collapse>
+                </div>
+
+                <div class="col-xl-12 nextmatches">
+                    <b-btn :size="lg" class="ButtonMatches" v-b-toggle.collapse2 variant="outline-link">Next Matches <img class="plus" src="add-circle-1_48180.png" alt="plus" /></b-btn>
+                    <b-collapse id="collapse2" class="mt-2">
+                        <b-card class="card" v-for="jornada in jornadaNext">
+
+                            <div class="card-header" v-bind:id="'heading' + jornada">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" v-bind:data-target="'#collapse' + jornada" aria-expanded="true" v-bind:aria-controls="'collapse' + jornada" v-on:click="uniqueJornada(jornada)">
+                               TOURNAMENT - {{jornada}}
+                        </button><img class="plus" src="add-circle-1_48180.png" alt="plus" />
+                            </div>
+
+                            <div v-bind:id="'collapse' + jornada" class="collapse" v-bind:aria-labelledby="'heading' + jornada" data-parent="#collapse2">
+                                <div class="card-body" v-for="match in jornadaUnica" style="align-items: center" id="matchselectedInfo" data-type="matchselectedInfo" v-on:click="showSection26(), displayTeam(match)">
+                                    <img class="petlogo" v-bind:src=match.logo1> {{match.Team1}} vs {{match.Team2}} <img class="petlogo" v-bind:src=match.logo2> <br> {{match.date}} <br>{{match.time}}h.
+                                    <img class="plus" src="icon.info.png" alt="plus" />
+                                </div>
+                            </div>
+
+                        </b-card>
+                    </b-collapse>
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <!--section 2.6 matchInfo-->
+
+        <section data-page="matchselectedInfo" id="section26" v-show="section26">
+
+            <div class="onlyMatch">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="row petlogo" src="logoNYSL2.jpg" />
+                        <h6 class="col-xl-12 card-title">2019 NYSL WORLD CUP USA</h6>
+
+                        <p class="card-text">This Saturday: {{localTeam.name}} <img class="petlogo" v-bind:src="localTeam.logo"> vs {{oppTeam.name}} <img class="petlogo" v-bind:src="oppTeam.logo"> {{localTeam.stadiumName}}{{localTeam.city}}</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    <iframe class="card-img-bottom" v-bind:src="localTeam.location" alt="Card image cap"></iframe>
+
+
+                    <div class="row players">
+
+                        <ol class="col">
+                            <h5>Players Local</h5>
+                            <li v-for="player in localPlayers">{{player}}</li>
+                        </ol>
+
+
+                        <ol class="col">
+                            <h5>Players Visitors</h5>
+                            <li v-for="player in oppPlayers">{{player}}</li>
+                        </ol>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <!--section 2.5 team--->
+        <section data-page="teaminfo" id="section25" v-show="section25">
+
+            <!--team information-->
+            <div class="teams">
+
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="petlogo" v-bind:src="team.logo" alt="First slide" v-for="team in teams" v-on:click="eachTeam(team), showSection27()">
+
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"></a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section data-page="carouselBack" id="section27" v-show="section27">
+            
+            <button type="button" id="teamsbutton" data-type="teaminfo" class="btn btn-link" v-on:click="showSection25()"><i href="#" class="previous">&laquo; Teams</i> </button>
+
+            <div class="accordion" id="accordionExample4" v-if="team.name">
+                <div class="card">
+                    <div class="card-header" id="heading4">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse4" aria-controls="collapse4">
+          Team and Players <h6 class="carousel-control-prev-icon" aria-hidden="true">{{team.name}}</h6>
+        </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapse4" class="collapse show" aria-labelledby="heading4" data-parent="#accordionExample4">
+                        <div class="card-body">
+                            {{team.name}}<img class="petlogo" v-bind:src=team.logo>
+                            <span class="players" v-for="player in team.players"> {{player}} </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="heading5">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+          History
+        </button>
+                        </h5>
+                    </div>
+                    <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample4">
+                        <div class="card-body">
+                            {{team.history}}
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <table class="col-sm-12 table table-bordered" v-if="team.name">
+                <thead>
+                    <tr>
+                        <th>Last Match & Score</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row" v-if="team.scores">{{team.lastMatch}}
+                            <ul>
+                                <li>win: {{team.scores.win}}</li>
+                                <li>lost: {{team.scores.lost}}</li>
+                                <li>tied: {{team.scores.tied}}</li>
+                                <li> points: {{team.scores.points}}</li>
+                            </ul>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <th>Training: {{team.trainning}}
+                            <img class="phototeam" v-bind:src=team.image>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Location & Web Stadium: <a v-bind:href=team.web target="_blank">{{team.web}}</a><br><iframe class="stadiumteam" v-bind:src=team.location></iframe> </th>
+                    </tr>
+                    <tr>
+                        <th>Stadium & City: {{team.stadiumName}} {{team.city}} <img class="phototeam" v-bind:src=team.stadium></th>
+
+
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+
+        <!--section 3 Chat -->
+        <section data-page="team" id="section3" v-show="section3">
+
+            <!--Chat section-->
+            <div class="chat">
+                <div class="chat-box">
+                    <div class="col-sm-12 open">
+                        <div id="posts" class="col-sm-12 box">
+                            Loading posts...
+                        </div>
+
+
+                        <div class="inputsChat">
+                            <input id="textInput" class="input" type="text" placeholder="Your message...">
+                            <button style="font-size:18px" id="create-post">Send</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button id="login" class="col-sm-12 btn btn-success button is-info"><i class="fa fa-sign-in"></i>Log in</button>
+
+            </div>
+
+            <div id="wrongId" class="hidden">
+
+                Sorry you have to Sign in!!!
+
+            </div>
+
+        </section>
+
+
+        <!--Register form-->
+        <section data-page="moreinfo" id="section4" v-show="section4">
+            <div id="membership">
+
+                <div class="accordion" id="accordionExample5">
+
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          Register
+        </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample5">
+                            <div class="card-body">
+
+                                <form>
+
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Name</label>
+                                        <input type="text" class="form-control" id="exampleInputname" aria-describedby="nameHelp" placeholder="Enter your name">
+                                        <small id="nameHelp" class="form-text text-muted">Thank you for write your name</small>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Last name</label>
+                                        <input type="text" class="form-control" id="exampleInputlastname" aria-describedby="lastnameHelp" placeholder="Enter your last name">
+                                        <small id="lastname" class="form-text text-muted">Thank you for write your last name</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    </div>
+                                    <div class="form-group form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-link">Submit</button>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--Contact form-->
+                    <div class="card">
+                        <div class="card-header" id="headingSix">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          Contact Us
+        </button>
+                            </h5>
+                        </div>
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample5">
+                            <div class="card-body">
+                                <form>
+
+                                    <h4>Contact us</h4>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlInput1">Name</label>
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="enter your name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlInput1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">Example textarea</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-link">Submit</button>
+
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingSeven">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          Lifestyle
+        </button>
+                            </h5>
+                        </div>
+                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample5">
+                            <div class="card-body" v-for="habit in lifestyle">
+
+                                <h3 style="text-decoration: underline; margin-left: 20px;">{{habit.title}}</h3>
+                                <img class="phototeam" v-bind:src=habit.photo>
+                                <ul>
+                                    <li>{{habit.habits}}</li>
+                                    <li> {{habit.nutrition}}</li>
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="loginOutButton">
+
+
+                <hr class="my-2">
+
+                <button type="button" class=" col-sm-12 btn btn-warning"><i class="fa fa-sign-out"></i>Sign out</button>
+            </div>
+        </section>
+
+        <footer class="footerB">
+            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                <div class=" btn-group mr-2" role="group" aria-label="First group">
+                    <button type="button" id="home" data-type="home" class="btn btn-link" v-on:click="showSection1()"><i class="fa fa-home"></i> Home</button>
+                    <button type="button" id="game" data-type="match" class="btn btn-link" v-on:click="showSection2()"><i class="fa fa-info"></i> Game Info</button>
+                    <button type="button" id="teaminfo" data-type="teaminfo" class="btn btn-link" v-on:click="showSection25()"><i class="fa fa-bars"></i> Team Info</button>
+                    <button type="button" id="account" data-type="account" class="btn btn-link" v-on:click="showSection3()"><i class="fa fa-phone"></i> Chat</button>
+                    <button type="button" id="moreinfo" data-type="moreinfo" class="btn btn-link" v-on:click="showSection4()">...</button>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    <!--footer-->
+
+    <!-- Bootstrap JS-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!--Script-->
+
+    <script src="https://unpkg.com/vue@2.5.17/dist/vue.js"></script>
+    <script src="https://unpkg.com/babel-polyfill@latest/dist/polyfill.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBWJOQLn9VQ1UNq_yD1cdqk4NAHOfuYpcA",
+            authDomain: "mynewchat-39dd8.firebaseapp.com",
+            databaseURL: "https://mynewchat-39dd8.firebaseio.com",
+            projectId: "mynewchat-39dd8",
+            storageBucket: "mynewchat-39dd8.appspot.com",
+            messagingSenderId: "777825186081"
+        };
+        firebase.initializeApp(config);
+
+    </script>
+
+    <script type="text/javascript" src="mobileApp.js"></script>
+
+</body>
+
+</html>
